@@ -1,0 +1,101 @@
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: red;
+  }
+  
+  /* Header styling */
+  header {
+    background-image: url("https://via.placeholder.com/1920x1080.png");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    position: relative;
+  }
+  
+  .title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Section styling */
+  .bg-section {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .subsections-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  subsection {
+    width: 30%;
+  }
+  .center-form{
+    background-color: rgb(181, 226, 224);
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  .second-subsection{
+    background-color: rgb(181, 226, 224);
+    padding: 1rem;
+    border-radius: 15px;
+    color: rgb(221, 19, 137);
+  }
+  .conainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .first-subsection{
+    background-color: rgb(181, 226, 224);
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  footer{
+    background-color: rgb(103, 201, 231);
+    padding: 3px;
+  }
+  p {
+    text-align: center;
+  }
+
+  
